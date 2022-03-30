@@ -1,0 +1,426 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/h22eEPJpdS47JisaEPevdj48fVT.jpg",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "id": 634649,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "Spider-Man: No Way Home",
+            "overview": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+            "popularity": 7841.281,
+            "poster_path": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+            "release_date": "2021-12-15",
+            "title": "Spider-Man: No Way Home",
+            "video": false,
+            "vote_average": 8.2,
+            "vote_count": 10259
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/iPhDToxFzREctUA0ZQiYZamXsMy.jpg",
+            "genre_ids": [
+                16,
+                10751,
+                35,
+                14
+            ],
+            "id": 508947,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "Turning Red",
+            "overview": "Thirteen-year-old Mei is experiencing the awkwardness of being a teenager with a twist \u2013 when she gets too excited, she transforms into a giant red panda.",
+            "popularity": 9962.298,
+            "poster_path": "/qsdjk9oAKSQMWs0Vt5Pyfh6O4GZ.jpg",
+            "release_date": "2022-03-10",
+            "title": "Turning Red",
+            "video": false,
+            "vote_average": 7.5,
+            "vote_count": 880
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ewUqXnwiRLhgmGhuksOdLgh49Ch.jpg",
+            "genre_ids": [
+                28,
+                12,
+                35,
+                878
+            ],
+            "id": 696806,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "The Adam Project",
+            "overview": "After accidentally crash-landing in 2022, time-traveling fighter pilot Adam Reed teams up with his 12-year-old self on a mission to save the future.",
+            "popularity": 4698.679,
+            "poster_path": "/wFjboE0aFZNbVOF05fzrka9Fqyx.jpg",
+            "release_date": "2022-03-11",
+            "title": "The Adam Project",
+            "video": false,
+            "vote_average": 7.0,
+            "vote_count": 1052
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/IYUD7rAIXzBM91TT3Z5fILUS7n.jpg",
+            "genre_ids": [
+                80,
+                9648,
+                53
+            ],
+            "id": 414906,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "The Batman",
+            "overview": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.",
+            "popularity": 2399.305,
+            "poster_path": "/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+            "release_date": "2022-03-01",
+            "title": "The Batman",
+            "video": false,
+            "vote_average": 7.9,
+            "vote_count": 2260
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/hJjA3EY7yoT1djGyD20lM3WzgyM.jpg",
+            "genre_ids": [
+                18,
+                9648,
+                53
+            ],
+            "id": 619979,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "Deep Water",
+            "overview": "Vic and Melinda Van Allen are a couple in the small town of Little Wesley. Their loveless marriage is held together only by a precarious arrangement whereby, in order to avoid the messiness of divorce, Melinda is allowed to take any number of lovers as long as she does not desert her family.",
+            "popularity": 599.516,
+            "poster_path": "/6yRMyWwjuhKg6IU66uiZIGhaSc8.jpg",
+            "release_date": "2022-03-18",
+            "title": "Deep Water",
+            "video": false,
+            "vote_average": 5.5,
+            "vote_count": 172
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/t7I942V5U1Ggn6OevN75u3sNYH9.jpg",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "id": 760868,
+            "media_type": "movie",
+            "original_language": "sv",
+            "original_title": "Svart krabba",
+            "overview": "To end an apocalyptic war and save her daughter, a reluctant soldier embarks on a desperate mission to cross a frozen sea carrying a top-secret cargo.",
+            "popularity": 220.863,
+            "poster_path": "/mcIYHZYwUbvhvUt8Lb5nENJ7AlX.jpg",
+            "release_date": "2022-03-18",
+            "title": "Black Crab",
+            "video": false,
+            "vote_average": 6.3,
+            "vote_count": 112
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ifUfE79O1raUwbaQRIB7XnFz5ZC.jpg",
+            "genre_ids": [
+                27,
+                9648,
+                53
+            ],
+            "id": 646385,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "Scream",
+            "overview": "Twenty-five years after a streak of brutal murders shocked the quiet town of Woodsboro, a new killer has donned the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town\u2019s deadly past.",
+            "popularity": 1115.231,
+            "poster_path": "/kZNHR1upJKF3eTzdgl5V8s8a4C3.jpg",
+            "release_date": "2022-01-12",
+            "title": "Scream",
+            "video": false,
+            "vote_average": 6.8,
+            "vote_count": 996
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/g0YNGpmlXsgHfhGnJz3c5uyzZ1B.jpg",
+            "genre_ids": [
+                80,
+                18,
+                53
+            ],
+            "id": 597208,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "Nightmare Alley",
+            "overview": "An ambitious carnival man with a talent for manipulating people with a few well-chosen words hooks up with a female psychiatrist who is even more dangerous than he is.",
+            "popularity": 1049.083,
+            "poster_path": "/vfn1feL0V9HNSXuLLpaxAW8O6LO.jpg",
+            "release_date": "2021-12-02",
+            "title": "Nightmare Alley",
+            "video": false,
+            "vote_average": 7.1,
+            "vote_count": 1185
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8T7SS4jU7TmtqrUr45JgZASCTUP.jpg",
+            "genre_ids": [
+                18,
+                35
+            ],
+            "id": 626735,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "Dog",
+            "overview": "An army ranger and his dog embark on a road trip along the Pacific Coast Highway to attend a friend's funeral.",
+            "popularity": 176.321,
+            "poster_path": "/zHQy4h36WwuCetKS7C3wcT1hkgA.jpg",
+            "release_date": "2022-02-17",
+            "title": "Dog",
+            "video": false,
+            "vote_average": 7.6,
+            "vote_count": 143
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4OTYefcAlaShn6TGVK33UxLW9R7.jpg",
+            "genre_ids": [
+                28,
+                12,
+                53,
+                10752
+            ],
+            "id": 476669,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "The King's Man",
+            "overview": "As a collection of history's worst tyrants and criminal masterminds gather to plot a war to wipe out millions, one man must race against time to stop them.",
+            "popularity": 1358.124,
+            "poster_path": "/aq4Pwv5Xeuvj6HZKtxyd23e6bE9.jpg",
+            "release_date": "2021-12-22",
+            "title": "The King's Man",
+            "video": false,
+            "vote_average": 7.0,
+            "vote_count": 2079
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/f2J8DpT5bqV0AiI9VVcfiuqKo5l.jpg",
+            "genre_ids": [
+                35,
+                99,
+                28
+            ],
+            "id": 656663,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "Jackass Forever",
+            "overview": "Celebrate the joy of a perfectly executed shot to the groin as Johnny Knoxville, Steve-O and the rest of the gang return alongside some newcomers for one final round of hilarious, wildly absurd and often dangerous displays of stunts and comedy.",
+            "popularity": 290.982,
+            "poster_path": "/ruHDFumJfW7F2vEqTZEQQ9xT7CA.jpg",
+            "release_date": "2022-02-01",
+            "title": "Jackass Forever",
+            "video": false,
+            "vote_average": 7.1,
+            "vote_count": 84
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/exnFsbb9c3fDutTsgtJSWcDmZm0.jpg",
+            "genre_ids": [
+                18,
+                10749,
+                80
+            ],
+            "id": 511809,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "West Side Story",
+            "overview": "Two youngsters from rival New York City gangs fall in love, but tensions between their respective friends build toward tragedy.",
+            "popularity": 425.964,
+            "poster_path": "/yfz3IUoYYSY32tkb97HlUBGFsnh.jpg",
+            "release_date": "2021-12-08",
+            "title": "West Side Story",
+            "video": false,
+            "vote_average": 7.3,
+            "vote_count": 688
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/3G1Q5xF40HkUBJXxt2DQgQzKTp5.jpg",
+            "genre_ids": [
+                16,
+                35,
+                10751,
+                14
+            ],
+            "id": 568124,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "Encanto",
+            "overview": "The tale of an extraordinary family, the Madrigals, who live hidden in the mountains of Colombia, in a magical house, in a vibrant town, in a wondrous, charmed place called an Encanto. The magic of the Encanto has blessed every child in the family with a unique gift from super strength to the power to heal\u2014every child except one, Mirabel. But when she discovers that the magic surrounding the Encanto is in danger, Mirabel decides that she, the only ordinary Madrigal, might just be her exceptional family's last hope.",
+            "popularity": 2524.988,
+            "poster_path": "/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg",
+            "release_date": "2021-11-24",
+            "title": "Encanto",
+            "video": false,
+            "vote_average": 7.7,
+            "vote_count": 5507
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/2hGjmgZrS1nlsEl5PZorn7EsmzH.jpg",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "id": 823625,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "Blacklight",
+            "overview": "Travis Block is a shadowy Government agent who specializes in removing operatives whose covers have been exposed. He then has to uncover a deadly conspiracy within his own ranks that reaches the highest echelons of power.",
+            "popularity": 2863.721,
+            "poster_path": "/bv9dy8mnwftdY2j6gG39gCfSFpV.jpg",
+            "release_date": "2022-02-10",
+            "title": "Blacklight",
+            "video": false,
+            "vote_average": 5.7,
+            "vote_count": 178
+        },
+        {
+            "backdrop_path": "/oKt4J3TFjWirVwBqoHyIvv5IImd.jpg",
+            "first_air_date": "2019-06-16",
+            "genre_ids": [
+                18
+            ],
+            "id": 85552,
+            "media_type": "tv",
+            "name": "Euphoria",
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Euphoria",
+            "overview": "A group of high school students navigate love and friendships in a world of drugs, sex, trauma, and social media.",
+            "popularity": 1565.18,
+            "poster_path": "/jtnfNzqZwN4E32FGGxx1YZaBWWf.jpg",
+            "vote_average": 8.4,
+            "vote_count": 7446
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/eNI7PtK6DEYgZmHWP9gQNuff8pv.jpg",
+            "genre_ids": [
+                878,
+                28,
+                12
+            ],
+            "id": 624860,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "The Matrix Resurrections",
+            "overview": "Plagued by strange memories, Neo's life takes an unexpected turn when he finds himself back inside the Matrix.",
+            "popularity": 840.171,
+            "poster_path": "/8c4a8kE7PizaGQQnditMmI1xbRp.jpg",
+            "release_date": "2021-12-16",
+            "title": "The Matrix Resurrections",
+            "video": false,
+            "vote_average": 6.8,
+            "vote_count": 3326
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4YOpxmGyQZFELwLB7JqcpYKnmKw.jpg",
+            "genre_ids": [
+                10751,
+                35
+            ],
+            "id": 691683,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "Cheaper by the Dozen",
+            "overview": "This remake of the beloved classic follows the raucous exploits of a blended family of 12, the Bakers, as they navigate a hectic home life while simultaneously managing their family business.",
+            "popularity": 232.677,
+            "poster_path": "/qNRsouZh5zmhaE3n4QpLDXzy1gQ.jpg",
+            "release_date": "2022-03-18",
+            "title": "Cheaper by the Dozen",
+            "video": false,
+            "vote_average": 6.2,
+            "vote_count": 43
+        },
+        {
+            "backdrop_path": "/yvKrycViRMQcIgdnjsM5JGNWU4Q.jpg",
+            "first_air_date": "2013-04-07",
+            "genre_ids": [
+                10765,
+                16,
+                10759
+            ],
+            "id": 1429,
+            "media_type": "tv",
+            "name": "Attack on Titan",
+            "origin_country": [
+                "JP"
+            ],
+            "original_language": "ja",
+            "original_name": "\u9032\u6483\u306e\u5de8\u4eba",
+            "overview": "Several hundred years ago, humans were nearly exterminated by Titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest Titans. Flash forward to the present and the city has not seen a Titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a Colossal Titan that appears out of thin air. As the smaller Titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single Titan and take revenge for all of mankind.",
+            "popularity": 292.21,
+            "poster_path": "/aiy35Evcofzl7hASZZvsFgltHTX.jpg",
+            "vote_average": 8.6,
+            "vote_count": 4066
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/cc7Nmid20lcfNh1eucWdLKidi7s.jpg",
+            "genre_ids": [
+                80,
+                18,
+                53
+            ],
+            "id": 850018,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "Windfall",
+            "overview": "A man breaks into a tech billionaire's empty vacation home, but things go sideways when the arrogant mogul and his wife arrive for a last-minute getaway.",
+            "popularity": 68.718,
+            "poster_path": "/r3eGUCijDCNqwcP1Ri8AZyTbPzI.jpg",
+            "release_date": "2022-03-11",
+            "title": "Windfall",
+            "video": false,
+            "vote_average": 5.5,
+            "vote_count": 73
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/cTTggc927lEPCMsWUsdugSj6wAY.jpg",
+            "genre_ids": [
+                28,
+                12
+            ],
+            "id": 335787,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "Uncharted",
+            "overview": "A young street-smart, Nathan Drake and his wisecracking partner Victor \u201cSully\u201d Sullivan embark on a dangerous pursuit of \u201cthe greatest treasure never found\u201d while also tracking clues that may lead to Nathan\u2019s long-lost brother.",
+            "popularity": 729.444,
+            "poster_path": "/sqLowacltbZLoCa4KYye64RvvdQ.jpg",
+            "release_date": "2022-02-10",
+            "title": "Uncharted",
+            "video": false,
+            "vote_average": 7.1,
+            "vote_count": 843
+        }
+    ],
+    "total_pages": 1000,
+    "total_results": 20000
+}
