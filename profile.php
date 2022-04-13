@@ -26,11 +26,9 @@ $currentR = $pdo->prepare("SELECT userLiked from users WHERE userUsername LIKE '
 $currentR->execute(); 
 $currentRecommendPerUser = $currentR->fetch(PDO::FETCH_ASSOC) ;
 
-$command = exec("python3 api_call.py '%$user%' "); 
-ob_start();
-passthru("/usr/local/bin/python3 api_call.py '%$user%' ");
-$output = ob_get_clean(); 
-shell_exec(" /usr/local/bin/python3 api_call.py '%$user%' ");
+#$command = shell_exec("python3 api_call.py '%$user%' "); 
+shell_exec("/usr/local/bin/python3 api_call.py '%$user%' ");
+exec("/usr/local/bin/python3 api_call.py '%$user%' ");
 
 // exec($command);
 
@@ -38,6 +36,7 @@ shell_exec(" /usr/local/bin/python3 api_call.py '%$user%' ");
 // $output = shell_exec($command_test);
 
 // echo $output; 
+
 ?>
 
 

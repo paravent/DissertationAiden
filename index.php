@@ -3,6 +3,7 @@ require_once "pdo.php";
 require_once "functions.php";
 session_start();
 $usernameSession = $_SESSION["username"];
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -157,7 +158,7 @@ $usernameSession = $_SESSION["username"];
                         if(!empty($_POST['fav_genre'])) {
                             $space = " "; 
                             // SELECT userEmail FROM users WHERE userUsername LIKE '%$user%' LIMIT 1
-                             
+                            
                             $findID = $pdo->prepare("SELECT userID FROM users WHERE  userUsername LIKE '%$usernameSession%'"); 
                             $findID->execute(); 
                             $myID = $findID->fetch(PDO::FETCH_ASSOC) ;

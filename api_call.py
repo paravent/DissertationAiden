@@ -1,4 +1,3 @@
-#! /usr/local/bin/python3
 
 import requests 
 import json
@@ -110,15 +109,27 @@ parse_json("tv_trend.json", 'tv_trend.json', trending.json())
 parse_json("person_trend.json", 'person_trend.json', trending.json())
 parse_json("genres.json", api_genre_path, genreRequest.json())
 genres = parse_genre_id('genres.json', "Horror")
-
+#convert_str = ''
 cursor.execute("SELECT userTrendGenre FROM users WHERE (%(username)s) IN (userUsername) ", {'username': username})
+print(cursor.rowcount)
+# if cursor.rowcount > -1:
+#     for (userUsername) in cursor:
+#         # print("User: {name}".format(name = userUsername))
+#         genres = ','.join(userUsername)
+#         split = split_user_genres(genres)
+#         convert_str = convert(split)
+# else:
+#convert_str = 'Horror'
+count = 0
 for (userUsername) in cursor:
-    # print("User: {name}".format(name = userUsername))
-    genres = ','.join(userUsername)
-    split = split_user_genres(genres)
-    convert_str = convert(split)
-
-
+    
+        # print("User: {name}".format(name = userUsername))
+        genres = ','.join(userUsername)
+        split = split_user_genres(genres)
+        convert_str = convert(split)
+       
+        
+print("count is ", count)
 
 #Match user trending genre to its API genre ID
 matched_list = []

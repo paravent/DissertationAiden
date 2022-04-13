@@ -30,13 +30,13 @@ def find_missing_values(dataframe):
 new_data_frame = imdb_dataset.dropna(axis = 0, how='all')
 print(find_missing_values(new_data_frame))
 #print(new_data_frame.head(5)['movie_title'])
-print(new_data_frame.head(5)['movie_title'])
+print(new_data_frame.head(5)['title'])
 print(new_data_frame.shape)
 
-new_data_frame['genres'] = new_data_frame['genres'].str.replace('|',' ')
+new_data_frame['genre'] = new_data_frame['genre'].str.replace('|',' ')
 new_data_frame.columns = new_data_frame.columns.str.strip()
 #first we need whole words to use tfidf
-new_data_frame['genres'] = new_data_frame['genres'].str.replace('Sci-Fi','SciFi')
+new_data_frame['genre'] = new_data_frame['genre'].str.replace('Sci-Fi','SciFi')
 
  
 filepath = Path('./dataset/out.csv')  
@@ -47,7 +47,7 @@ def plot_occurences(new_data_frame):
     # count the number of occurences for each genres in the data set
     counts = dict()
     for i in new_data_frame.index:
-        for g in new_data_frame.loc[i,'genres'].split(' '):
+        for g in new_data_frame.loc[i,'genre'].split(' '):
             if g not in counts:
                 counts[g] = 1
             else:
@@ -56,7 +56,7 @@ def plot_occurences(new_data_frame):
     plt.figure(figsize=(12,6))
     plt.bar(list(counts.keys()), counts.values(), color='b')
     plt.xticks(rotation=45)
-    plt.xlabel('genres')
+    plt.xlabel('genre')
     plt.ylabel('Occurence')
     
 
@@ -80,7 +80,7 @@ plot_occurences(new_data_frame)
 # We are essentially turning our words into numbers
 
 language_vector = TfidfVectorizer(stop_words='english') #Vectoriser object
-genres_matrix = language_vector.fit_transform(new_data_frame['genres']) #apply language object to genres column
+genres_matrix = language_vector.fit_transform(new_data_frame['genre']) #apply language object to genres column
 print(list(enumerate(language_vector.get_feature_names())))
 # First value in indices is the movie in the dataframe
 # Second value is the genres
@@ -94,16 +94,16 @@ print(confusion_matrix)
 # the function to convert from index to title_year
 def get_title_from_index(index_list):
  
-  return new_data_frame.loc[index_list,'movie_title']
+  return new_data_frame.loc[index_list,'title']
 
 # the function to convert from title to index
 def get_index_from_title(title):
   
-  print(new_data_frame.loc[new_data_frame['movie_title'].str.contains(title)], 'not hard coded')
+  print(new_data_frame.loc[new_data_frame['title'].str.contains(title)], 'not hard coded')
 
 
   #Get index of movie we're looking for to plug into similarity matrix 
-  return new_data_frame.loc[new_data_frame['movie_title'].str.contains(title)].index.values[0]
+  return new_data_frame.loc[new_data_frame['title'].str.contains(title)].index.values[0]
 
 
 
@@ -120,4 +120,4 @@ def run_recommender(movie, number_to_recommend):
 
 
 
-run_recommender('Interstellar', 2)
+run_recommender('Miss Jerry', 20)
