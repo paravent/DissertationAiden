@@ -120,4 +120,4 @@ def run_recommender(movie, number_to_recommend):
 
 
 
-run_recommender('Interstellar', 2)
+run_recommender('Cars', 2)

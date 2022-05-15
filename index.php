@@ -1,9 +1,11 @@
 <?php
 require_once "pdo.php";
 require_once "functions.php";
-session_start();
-$usernameSession = $_SESSION["username"];
 
+session_start();
+if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
+    $usernameSession = $_SESSION["username"];
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +14,7 @@ $usernameSession = $_SESSION["username"];
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Website!</title>
+        <title>Dissertation Project</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
@@ -24,9 +26,9 @@ $usernameSession = $_SESSION["username"];
                 integrity="sha256-Ls0pXSlb7AYs7evhd+VLnWsZ/AqEHcXBeMZUycz/CcA="
                 crossorigin="anonymous"></script>
         <!-- JS file easy autocomplete -->
-        <script src="jquery.easy-autocomplete.min.js"></script>
+        <script src="JQuery/jquery.easy-autocomplete.min.js"></script>
         <!-- CSS file -->
-        <link rel="stylesheet" href="easy-autocomplete.min.css">
+        <link rel="stylesheet" href="JQuery/easy-autocomplete.min.css">
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">

@@ -25,11 +25,17 @@ $UserTrendActor = $UserTrenda->fetch(PDO::FETCH_ASSOC) ;
 $currentR = $pdo->prepare("SELECT userLiked from users WHERE userUsername LIKE '%$user%'"); 
 $currentR->execute(); 
 $currentRecommendPerUser = $currentR->fetch(PDO::FETCH_ASSOC) ;
+ // Put your tags in an array
+foreach($currentRecommendPerUser as $key => $value){
+  $preExplode = $value ; 
+
+}
+$explode = explode(", ", $preExplode);
 
 #$command = shell_exec("python3 api_call.py '%$user%' "); 
 shell_exec("/usr/local/bin/python3 api_call.py '%$user%' ");
-exec("/usr/local/bin/python3 api_call.py '%$user%' ");
-
+exec("/usr/local/bin/python3 /Applications/XAMPP/xamppfiles/htdocs/dissy/Dissertation/api_call.py '%$user%' ");
+exec("/usr/local/bin/python3 filterMKII.py '%$preExplode%' ");
 // exec($command);
 
 // $command_test = escapeshellcmd("python3 api_call.py '%$username%' ");
@@ -158,10 +164,11 @@ exec("/usr/local/bin/python3 api_call.py '%$user%' ");
                   <hr>
                   <div class="row">
                     <div class="col-sm-3">
-                      <h6 class="mb-0">Current Recommendations from current popular releases</h6>
+                      <h6 class="mb-0">Current Recommendations from liked genres</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                    <?php print_r(implodeArrResult($currentRecommendPerUser));  ?>
+                    
+                      <?php print_r(implodeArrResult($currentRecommendPerUser));  ?>
                     </div>
                   </div>
                   <hr>

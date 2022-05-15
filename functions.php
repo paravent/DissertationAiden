@@ -3,6 +3,15 @@
 // get HTML for movie/tvSeries item to display on index & search page
 // $param1 : $movieTvShow array of individual movie or tvSeries data items
 // returns : HTML for individual movie/tvSeries item to display on index.php
+
+function linkRecommendation($movie){
+    ob_start(); 
+
+    echo(htmlentities($movie)) ; 
+
+
+}
+
 function createMovieTvShowArtefact($movieTvShow) {
     ob_start();
     ?>
@@ -23,7 +32,7 @@ function createMovieTvShowArtefact($movieTvShow) {
                         $imageLink = "img/movieImg.png";
                     }
                 ?>
-            <img class="card-img-top" src="<?php echo $imageLink; ?>" onerror="this.src='img/movieImg.png'" alt="Card image cap">
+            
             <div class="card-body">
                 <a href="movie.php?movieID=<?php 
                 if (array_key_exists("movieID", $movieTvShow)) {

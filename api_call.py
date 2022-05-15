@@ -15,13 +15,13 @@ cursor = cnx.cursor()
 
 api_genre_path = 'genres.json'
 #Receiving API call data
-trending = (requests.get("https://api.themoviedb.org/3/trending/all/week?api_key=60273795ce17f499171c35b57865cfc0"))
+trending = (requests.get("https://api.themoviedb.org/3/trending/all/week?api_key=60273795ce17f499171c35b57865cfc0&page=10"))
 trending_movie = (requests.get("https://api.themoviedb.org/3/trending/movie/week?api_key=60273795ce17f499171c35b57865cfc0"))
 trending_tv = (requests.get("https://api.themoviedb.org/3/trending/tv/week?api_key=60273795ce17f499171c35b57865cfc0"))
 trending_person = (requests.get("https://api.themoviedb.org/3/trending/person/week?api_key=60273795ce17f499171c35b57865cfc0"))
-
-
 genreRequest = (requests.get("https://api.themoviedb.org/3/genre/movie/list?api_key=60273795ce17f499171c35b57865cfc0&language=en-US"))
+
+
 
 #Parse api call to json file
 def parse_json(json_file, path_to_json, api_request):
@@ -121,19 +121,39 @@ print(cursor.rowcount)
 # else:
 #convert_str = 'Horror'
 count = 0
-for (userUsername) in cursor:
+def find(cursor):
+    convert_str = []
+    for (userUsername) in cursor:
     
         # print("User: {name}".format(name = userUsername))
         genres = ','.join(userUsername)
         split = split_user_genres(genres)
         convert_str = convert(split)
-       
         
-print("count is ", count)
 
+    print(convert_str, "returning----------------------")
+    return convert_str
+# for (userUsername) in cursor:
+    
+#         # print("User: {name}".format(name = userUsername))
+#         genres = ','.join(userUsername)
+#         split = split_user_genres(genres)
+#         convert_str = convert(split)
+# print(convert_str) 
 #Match user trending genre to its API genre ID
+listTest = find(cursor)
 matched_list = []
-for i in convert_str:
+
+for (userUsername) in cursor:
+    parse_genre_id(api_genre_path, listTest)
+    
+    test = find_genre_in_trending('all_trending.json', parse_genre_id(api_genre_path, listTest))
+    print(test)
+    for x in test:
+        
+        matched_list.append(x)
+
+for i in listTest:
     parse_genre_id(api_genre_path, i)
     
     test = find_genre_in_trending('all_trending.json', parse_genre_id(api_genre_path, i))
@@ -141,10 +161,11 @@ for i in convert_str:
     for x in test:
         
         matched_list.append(x)
-    
+
 
 #Remove duplicates
-matched_list = list(dict.fromkeys(matched_list))
+print(type(matched_list))
+matched_list = (dict.fromkeys(matched_list))
 
 val_string = ' , '.join(matched_list)
 
