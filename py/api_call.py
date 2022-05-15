@@ -15,7 +15,7 @@ cursor = cnx.cursor()
 
 api_genre_path = 'genres.json'
 #Receiving API call data
-trending = (requests.get("https://api.themoviedb.org/3/trending/all/week?api_key=60273795ce17f499171c35b57865cfc0&page=10"))
+trending = (requests.get("https://api.themoviedb.org/3/trending/all/week?api_key=60273795ce17f499171c35b57865cfc0&page=45"))
 trending_movie = (requests.get("https://api.themoviedb.org/3/trending/movie/week?api_key=60273795ce17f499171c35b57865cfc0"))
 trending_tv = (requests.get("https://api.themoviedb.org/3/trending/tv/week?api_key=60273795ce17f499171c35b57865cfc0"))
 trending_person = (requests.get("https://api.themoviedb.org/3/trending/person/week?api_key=60273795ce17f499171c35b57865cfc0"))

@@ -32,11 +32,12 @@ foreach($currentRecommendPerUser as $key => $value){
 }
 $explode = explode(", ", $preExplode);
 
-#$command = shell_exec("python3 api_call.py '%$user%' "); 
-shell_exec("/usr/local/bin/python3 api_call.py '%$user%' ");
-exec("/usr/local/bin/python3 /Applications/XAMPP/xamppfiles/htdocs/dissy/Dissertation/api_call.py '%$user%' ");
-exec("/usr/local/bin/python3 filterMKII.py '%$preExplode%' ");
-// exec($command);
+$command = exec('python ./py/api_call.py');
+$command2 = escapeshellcmd('python ./py/api_call.py');
+$output = shell_exec($command2);
+
+
+
 
 // $command_test = escapeshellcmd("python3 api_call.py '%$username%' ");
 // $output = shell_exec($command_test);
